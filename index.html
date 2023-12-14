@@ -5,19 +5,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>ISAAC TCHANTCHO</title>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="style.css" />
+    <!-- usage de boxicons pour la gestions des icons-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header class="header">
       <a href="" class="logo">Isaac Tchantcho </a>
-      <nav class="nav">
-        <a href="">home</a>
-        <a href="">About</a>
-        <a href="">Education</a>
-        <a href="">Skills</a>
-        <a href="">Contact</a>
+      <div class="bx bx-menu" id="menu-icon"></div>
+
+      <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#About">About</a>
+        <a href="#Education">Education</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Contact ">Contact</a>
       </nav>
     </header>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi ,je suis <span>Isaac Tchantcho</span></h1>
+
+        <div class="text-animate">
+          <h3>FullStack Développeur</h3>
+        </div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates
+          exercitationem consequatur repellat non ipsam voluptatem doloribus
+          possimus hic eius, molestias ipsum, architecto aperiam? Sit corrupti
+          laudantium dolore, obcaecati quia placeat?
+        </p>
+        <div class="btn-box">
+          <a href="#" class="btn">suis moi </a>
+          <a href="#" class="btn"> A propos </a>
+        </div>
+      </div>
+
+      <div class="home-sci">
+        <a href=""><i class="bx bxl-facebook"></i></a>
+        <a href=""><i class="bx bxl-twitter"></i></a>
+        <a href=""><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="home-imgHover"></div>
+    </section>
+    <!-- about section-->
+    <section class="about" id="qbout">
+      <h2 class="heading">AbouT <span>Me</span></h2>
+      <div class="about-img">
+        <img src="images/photo_cv.jpeg" alt="Photocv" />
+        <span class="circle-spin"></span>
+      </div>
+      <div class="about-content">
+        <h3>Fronted Developpeur</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis non
+          voluptatem quisquam expedita, ipsum cupiditate minus iure id sequi
+          aperiam officia est corrupti possimus eum cumque soluta accusantium
+          enim tenetur.
+        </p>
+      </div>
+      <div class="btn-box btns">
+        <a href="" class="btn"> Read More</a>
+      </div>
+    </section>
+
+    <!-- about section-->
     <script src="script.js"></script>
   </body>
 </html>
