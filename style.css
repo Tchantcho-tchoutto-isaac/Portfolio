@@ -104,7 +104,7 @@ section {
   -webkit-text-stroke: 0.9px var(--main-color);
   background-image: linear-gradient(var (--main-color), var(--main-color));
   background-repeat: no-repeat;
-  -webkit-background-clip: text;
+  -webkit-background-clip: var(--text-color);
   background-position: 0 0;
   animation: homeBgText 6s linear infinite;
   animation-delay: 2s;
@@ -358,6 +358,7 @@ span {
   border: 0.2rem solid var(--main-color);
   border-radius: 0.6rem;
   margin-bottom: 2rem;
+  
 }
 .education-content .content::before {
   content: "";
